@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Database Main Page</title>
+		<link rel="stylesheet" href="databaseAdminPage.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+		<header>
+			<div class="nav">
+				<ul>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn"><img src="profile3.jpg" style="width:30px;height:30px;"></a>
+						<div class="dropdown-content-left">
+						<a href="#">Search</a>
+						<a href="#">Add Users</a>
+                        <a href="#">Delete Users</a>
+                        <a href="#">Hardware List</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Log out</a>
+						</div>
+					</li>
+					<li><a class="navbarWords">kkennelly@ycp.edu</a></li>
+					<li class="dropdown" style="float:right">
+						<a href="javascript:void(0)" class="navbarWords" class="dropbtn">HELP</a>
+						<div class="dropdown-content-right">
+						<a href="#">Q & A</a>
+						<a href="#">Contact</a>
+						</div>
+					</li>
+					<li><a>
+						<img class="navbar-brand" src="fountainWhite.png" style="width:80px;height:80px;"></a></li>
+				</ul>
+			</div>
+		</header>
+    
+        <content>
+            <div class="databaseName">
+                Computer Science Department
+            </div>
+                <table>
+                    <tr>
+                        <th>Hololens</th>
+                        <th><a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                            <img src="shoppingcart.jpg" style="width:30px; height:30px;" />
+                            </a>
+                            <div id="light" class="white_content">
+                                <center>Are you sure you want to checkout the hololens?</center> 
+                                <a class="yes" href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Yes</a>
+                                <a class="no" href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">No</a>
+                            </div>
+                            <div id="fade" class="black_overlay"></div></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px; height:30px;" /></th>
+                    </tr> 
+                    <tr>
+                        <th>HTC Vive</th>
+                        <th><img src="shoppingcart.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px;height:30px;" /></th>
+                    </tr>
+                    <tr>
+                        <th>Amazon Echo Dot</th>
+                        <th><img src="shoppingcart.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px;height:30px;" /></th>
+                    </tr>
+                    <tr>
+                        <th>3D Pen</th>
+                        <th><img src="shoppingcart.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px;height:30px;" /></th>
+                    </tr>
+                    <tr>
+                        <th>Sphero</th>
+                        <th><img src="shoppingcart.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px;height:30px;" /></th>
+                    </tr>
+                    <tr>
+                        <th>Muse Headband</th>
+                        <th><img src="shoppingcart.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px;height:30px;" /></th>
+                    </tr>
+                    <tr>
+                        <th>Leap Motion</th>
+                        <th><img src="shoppingcart.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px;height:30px;" /></th>
+                    </tr>
+                    <tr>
+                        <th>Raspberry Pi</th>
+                        <th><img src="shoppingcart.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="checkmark.jpg" style="width:30px; height:30px;" /></th>
+                        <th><img src="info.jpg" style="width:30px;height:30px;" /></th>
+                    </tr>
+                </table>
+        </content>
+    </body>
+</html>
